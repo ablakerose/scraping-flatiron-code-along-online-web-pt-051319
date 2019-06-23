@@ -32,4 +32,4 @@ def make_courses
   end
 end
 
-Scraper.new.make_courses
+
