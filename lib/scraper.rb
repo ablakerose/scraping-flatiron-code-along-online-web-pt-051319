@@ -22,7 +22,7 @@ class Scraper
   self.get_page.css(".post")
 end
 
-def print_courses
+def make_courses
   self.get_courses.each do |post|
     course = Course.new
     course.title = post.css("h2").text
